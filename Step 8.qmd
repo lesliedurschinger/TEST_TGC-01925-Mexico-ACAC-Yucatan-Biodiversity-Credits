@@ -2,6 +2,7 @@
 title: "Step 8. Crediting Baseline"
 format: html
 ---
+
 ## Step H1. Map buffer zone around project Extent
 
 The spatial boundaries of the project extent were digitally mapped using QGIS and provided as a .geojson file. Per the SD Vista Nature Framework v1.0 Habitat conversion Risk Method, budder zones around the project extent are not required for baseline calculation. The methodology requires baseline calculations only within the project extent where conservation activities are implemented and credits will be claimed.
@@ -181,20 +182,9 @@ The average predicted change across all high-risk pixels in the project Extent a
 
 The average predicted change was calculated across all pixels in the project extent, not limited to high-risk pixels only. This approach is correct because risk weighting is applied separately in Step H10, and averaging over all project pixels provides the base magnitude which is then scaled by the weighted proportion of high-risk area.
 
-$$
-\overline{\Delta I_{t_x}} 
-=
-\frac{1}{P_{\text{HRI}}}
-\left(
-\widehat{\Delta I_{1,t_x}}
-+
-\widehat{\Delta I_{2,t_x}}
-+
-\cdots
-+
-\widehat{\Delta I_{P_{\text{HRI}},t_x}}
-\right)
-$$
+Equation:
+
+[\$\$\\overline{\\Delta I\_{t_x}} =\\frac{1}{P\_{\\text{HRI}}}\\left(\\widehat{\\Delta I\_{1,t_x}}+\\widehat{\\Delta I\_{2,t_x}}+\\cdots+\\widehat{\\Delta I\_{P\_{\\text{HRI}},t_x}}\\right)\$\$](www.terraglobalcapital.com)
 
 Where:
 
